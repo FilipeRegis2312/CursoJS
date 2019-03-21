@@ -9,4 +9,5 @@ const sequencia = {
     } 
 }
 
+
 console.log(sequencia.valor, sequencia.valor)
