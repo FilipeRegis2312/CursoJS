@@ -5,11 +5,16 @@ const produto = [
     { nome: 'Copo de plastico', preco: 18.99, fragil: false }
 ]
 
-function retornaFragil(p, b) {
-    if (p.nome === b) {
+let b = 0;
+
+function retornaFragil(p) {
+    let teste = 'aa';
+    if (!p.fragil) {
         return true;
     }
+    b++;
 }
+console.log(teste)
 
-console.log(produto.filter(retornaFragil))
+console.log(produto.filter(retornaFragil), b)
 

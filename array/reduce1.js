@@ -10,3 +10,4 @@ const resultado = alunos.map(a => a.nota).reduce(function (acumulador, atual) {
     return acumulador + atual;
     
 })
+
