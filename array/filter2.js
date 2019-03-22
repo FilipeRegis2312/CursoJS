@@ -8,6 +8,14 @@ Array.prototype.filter2 = function (callback) {
     return newArray;
 }
 
+function teste(aa) {
+
+}
+[1,2,3,4].filter2()
+teste('aa')
+
+teste([1,2,3,4])
+
 const produto = [
     { nome: 'Notebook', preco: 2499, fragil: true },
     { nome: 'iPad Pro', preco: 4199, fragil: true },
