@@ -1,8 +1,8 @@
 const url = 'http://files.cod3r.com.br/curso-js/funcionarios.json'
 const axios = require('axios')
 
-const nacionalidadeChinesa = (p) => p.pais == 'China';
-const sexoFeminino = (p) => p.genero == 'F';
+const nacionalidadeChinesa = (p) => p.pais === 'China';
+const sexoFeminino = (p) => p.genero === 'F';
 const menorSalario = (menorSal, salarioVar) => {
     //console.log(menorSal.salario, salarioVar.salario)
     return menorSal.salario < salarioVar.salario ? menorSal : salarioVar;
