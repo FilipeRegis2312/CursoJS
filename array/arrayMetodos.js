@@ -10,5 +10,6 @@ console.log(pilotos.shift())
 console.log(pilotos)
 
 pilotos.unshift('Hamilton')
-console.log(pilotos.sort())
 console.log(teste.sort().reverse())
+
+//Teste pro git
